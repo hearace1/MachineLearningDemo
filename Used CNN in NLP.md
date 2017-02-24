@@ -42,3 +42,10 @@
       > ">>>import keras"
       
     没有报错，那么Keras就已经成功安
+
+1. 准备Sample Code及所需语料、词向量等
+
+  1. 从github clone sample code
+  
+    > git clone https://github.com/894939677/deeplearning_by_diye.git
+    
