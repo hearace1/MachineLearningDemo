@@ -65,3 +65,5 @@
   进入deeplearning_by_diye目录中运行：  
 
     >python pre_merge_3.py
+    
+  Notice: 下载语料的目录名是“20_newsgroup**s**", code中（pre_merge_3.py)读取的语料目录是"20_newsgroup", 需要稍加修改。
