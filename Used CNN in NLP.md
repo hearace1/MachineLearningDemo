@@ -43,9 +43,25 @@
       
     没有报错，那么Keras就已经成功安
 
-1. 准备Sample Code及所需语料、词向量等
-
-  1. 从github clone sample code
+1. 准备Sample Code及所需语料、词向量等<br/>
+  1. 从github检出代码
   
-    > git clone https://github.com/894939677/deeplearning_by_diye.git
-    
+      >git clone https://github.com/894939677/deeplearning_by_diye.git<br/>
+      
+  1. 下载语料：http://www.qwone.com/~jason/20Newsgroups/20news-19997.tar.gz<br/>
+  1. 下载词向量：http://nlp.stanford.edu/data/glove.6B.zip<br/>
+  1. 解压缩语料及词向量文件，形成目录结构如下<br/>
+  
+    * deeplearning_by_diye/<br/>
+      * 20_newsgroups/<br/>
+        * ...<br/>
+      * glove.6B/<br/>
+        * glove.6B.50d.txt<br/>
+      * pre_merge_3.py<br/>
+      * ...<br/>
+      
+1. 运行sample code
+
+  进入deeplearning_by_diye目录中运行：  
+
+    >python pre_merge_3.py
